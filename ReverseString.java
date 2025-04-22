@@ -35,7 +35,7 @@ public final class ReverseString {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String inputString = scanner.nextLine();
-        scanner.close(); 
+        scanner.close();
         String reversedString = reverseString(inputString);
         System.out.println("Reversed string: " + reversedString);
     }
